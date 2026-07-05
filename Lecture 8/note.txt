@@ -1,0 +1,2 @@
+- Quy hoạch động: thường được dùng cho các bài toán trùng nhau, 
+- Khác với chia để trị và xử lý các bài toán trùng nhau thay vì các bài toán rời rạc 

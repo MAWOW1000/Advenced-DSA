@@ -1,0 +1,9 @@
+- Cách giải bài toán chuỗi con chung dài nhất
+  + NẾu m hoặc n bằng 0 thì độ dài = 0: lcs(m,0) = lcs(0,n) = 0;
+  + Nếu ký tự cuối cùng của X và ký tự cuối cùng của Y giống nhau:
+        lcs(m,n) = lcs(m-1, n-1)+1;
+  + Nếu ký tự cuối cùng của X và & khác nhau:
+        lcs(m,n) = max(lcs(m-1,n), lcs(m,n-1)
+
+- Cách khử đệ quy là lập mảng hoặc ma trận
+  -> Gioongs nhau 1+a(a là ô chéo ), khác là  max (hai ô kề )

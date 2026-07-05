@@ -1,0 +1,34 @@
+Giới thiệu môn học:
+ - Tìm hiểu về độ phức tạp và các thuật toán 
+
+ - Thuật toán là gì?
+   + Là sự kết hợp: input -> set of rules to obtain the expected output -> output 
+   + Tên Algorithm là từ phiên âm tên người tạo ra từ Muhammad ibn Musa al-Khwarizmi [780-850]
+   + Là tập hợp các lệnh chỉ thị xác định và có thứ tự (hoặc không tùy dạng bài) nhằm giải bài toán đặt ra
+ 
+ - Tính chất thuật toán 
+  1. Có input và output
+  2. Tính đúng
+  3. Tính dừng 
+  4. Tính xác định 
+  5. Tính phổ quát 
+
+  - Độ phức tạp của thuật toán (Algorithm complexity)
+    + Độ phức tạp về thời gian và không gian 
+    + Ram là số dung lượng để một thuật toán chạy như lúc caì một phần mềm cần bao nhiêu space 
+    + Thời gian là thời gian thực hiện xong số các lệnh hay số các lệnh cần phải thực hiện 
+
+  - Độ phức tạp không gian:
+    + Được chia làm hai loại
+     1. VÙng nhớ phụ trợ thường chú ý trong embeeding 
+     2. Kích thước dữ liệu vào
+
+
+  - Ký hiệu biểu diễn độ phức tạp có ba cái: big-0, omega, theta 
+  - Chứng minh tại sao f(n) = n^2 + 3n nhỏ hơn <= n^2 nên từ đó có độ phực tạp thường được làm trong như vậy 
+  - f(n) = n^2 + 3n <= n^2 + 3*n^2 = 4n^2
+  Và áp dụng f(n) = O(g(n)) -> độ phức tạp ở đây là n^2 
+
+  - Các nguyên lý tính độ phức tạp 
+   + Nguyên lý cộng: T(n) = f(n) + g(n) = O(max(f(n), g(n))) nên bài toán sắp xếp và in sẽ là n^2 và n độ phức tạp nhưng ta chỉ giữ n^2 
+   + Nguyên lý nhân: T(n) = f(n) * g(n) = O(f(n) * g(n)) ví dụ bài toán in ma trận m*n độ phức tạp 

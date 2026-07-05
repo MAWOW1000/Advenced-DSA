@@ -1,0 +1,5 @@
+PHương pháp backtracking 
+Ý tưởng:
+Cần tìm lời giải(dãy a gồm n phần tử), ta sẽ thử lần lượt từng ứng viên cho a[i]
+Nếu chọn được thì lấy và tìm tiếp lời giải cho a[i+1]
+Ngược lạ ineesu không thể chọn phần tử nào cho a[i] thì trả ngược lại về và lặp lại tiếp  

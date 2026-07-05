@@ -1,0 +1,4 @@
+-- THuật toán tham lam 
+- Chỉ sử dụng phương pháp này khi không còn phương pháp nào khác 
+- Chỉ chấp nhận lời giải được mà không chấp nhận lời giải tối ưu 
+- Được ứng dụng trong bài toán giao thông 

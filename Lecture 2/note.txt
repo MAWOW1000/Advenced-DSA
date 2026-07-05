@@ -1,0 +1,4 @@
+Bài toán tìm dãy con nhỏ nhất
+- Có ba cách
+1. ĐƠn giản nhất là brute-force (Vét cạn )
+2. Tiếp theo sử dụng Keynad (tối ưu nhất)
