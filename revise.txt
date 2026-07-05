@@ -1,0 +1,2 @@
+Câu hai: thuật toán chia để trị (tính mũ), đồ thị ,tham lam (thứ tự tô màu)
+Câu ba: lcs hôm nay làm excel 
